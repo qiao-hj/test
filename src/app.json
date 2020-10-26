@@ -1,0 +1,60 @@
+{
+  "pages": [
+  
+    "pages/add-sign/main",
+    "pages/logs/main",
+    "pages/my-sign/scan/main",
+    "pages/login/main",
+
+    "pages/msg-center/main",
+
+    "pages/my-sign/main",
+    "pages/my-sign/scan/statistics/main",
+    "pages/my-sign/scan/signmsg/main",
+    "pages/my-sign/scan/signmsg/signsuccess/main",
+
+    "pages/add-sign/project/main",
+
+    
+    "pages/person-center/main",
+    "pages/person-center/help/main", 
+    "pages/person-center/down/main", 
+    "pages/person-center/means/main",
+
+    "pages/record/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "工程签到",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#199ED8",
+    "borderStyle": "white",
+    "list": [{
+      "text": "我的签到",
+      "pagePath": "pages/my-sign/main",
+      "iconPath": "static/icon/pic1-1.png",
+      "selectedIconPath": "static/icon/pic1-2.png"
+    }, {
+      "text": "新建签到",
+      "pagePath": "pages/add-sign/main",
+      "iconPath": "static/icon/pic2-1.png",
+      "selectedIconPath": "static/icon/pic2-2.png"
+    },{
+      "text": "消息中心",
+      "pagePath": "pages/msg-center/main",
+      "iconPath": "static/icon/pic3-1.png",
+      "selectedIconPath": "static/icon/pic3-2.png"
+    },{
+      "text": "个人中心",
+      "pagePath": "pages/person-center/main",
+      "iconPath": "static/icon/pic4-1.png",
+      "selectedIconPath": "static/icon/pic4-2.png"
+    }],
+    "position": "bottom"
+  }
+}
